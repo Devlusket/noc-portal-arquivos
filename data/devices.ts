@@ -21,7 +21,7 @@ export const devices: Device[] = [
     manufacturer: "ZTE",
     category: "ONT",
     model: "ZXHN F670L V9.0",
-    image: "https://rapeedo.com.br/noc/wp-content/uploads/2025/03/ZTEF670L.png",
+    image: "/images/ZTEF670L.png",
     updatedAt: "2026-01-07",
     firmware: [
       {
@@ -51,7 +51,7 @@ export const devices: Device[] = [
     manufacturer: "ZTE",
     category: "ONT",
     model: "ZXHN F6600P",
-    image: "https://rapeedo.com.br/noc/wp-content/uploads/2026/01/F6600P--300x243.png",
+    image: "/images/F6600P.png",
     updatedAt: "2026-01-06",
     firmware: [
       {
@@ -69,7 +69,7 @@ export const devices: Device[] = [
     manufacturer: "ZTE",
     category: "Roteador",
     model: "ZXHN H199A",
-    image: "https://rapeedo.com.br/noc/wp-content/uploads/2026/03/Roteador-H199A.png",
+    image: "/images/H199A.png",
     updatedAt: "2026-03-24",
     firmware: [
       {
@@ -85,7 +85,7 @@ export const devices: Device[] = [
     manufacturer: "ZTE",
     category: "ONT",
     model: "ZXHN F6201B V9.3",
-    image: "https://cache2net4.com/Repositorio/18647/Produtos/480850/Fotos/F601BPhotoroom.webp",
+    image: "/images/F6201B.png",
     updatedAt: "2026-08-24",
     firmware: [
       {
@@ -109,8 +109,7 @@ export const devices: Device[] = [
     manufacturer: "TP-Link",
     category: "ONT",
     model: "XX530V",
-    image:
-      "https://static.wixstatic.com/media/b5c52f_455b864b64954683aa4a6e3114a599b7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    image: "/images/XX530V.jpg",
     updatedAt: "2026-08-24",
     firmware: [
       {
@@ -127,47 +126,5 @@ export const devices: Device[] = [
       },
     ],
     notes: "",
-  },
-
-  // --- Exemplos de Huawei e Datacom para você preencher com os arquivos reais ---
-  // Duplique um bloco, troque os dados e o arquivo dentro de public/downloads/.
-  {
-    id: "huawei-exemplo",
-    name: "EG8145V5 (teste)",
-    manufacturer: "Huawei",
-    category: "ONT",
-    model: "HG8145V5",
-    updatedAt: "2026-01-01",
-    firmware: [
-      {
-        label: "Substitua pelo firmware real",
-        filename: "firmware.bin",
-        url: "/downloads/huawei/hg8145v5-teste/firmware.bin",
-      },
-    ],
-    presets: [
-      {
-        label: "Configuração padrão",
-        filename: "config-default.cfg",
-        url: "/downloads/huawei/hg8145v5-teste/config-default.cfg",
-      },
-    ],
-    notes: "Item de exemplo — edite ou remova em data/devices.ts",
-  },
-  {
-    id: "datacom-exemplo",
-    name: "DM986-4211 (teste)",
-    manufacturer: "Datacom",
-    category: "ONU",
-    model: "DM986-4211",
-    updatedAt: "2026-01-01",
-    firmware: [
-      {
-        label: "Substitua pelo firmware real",
-        filename: "firmware.bin",
-        url: "/downloads/datacom/dm986-4211-teste/firmware.bin",
-      },
-    ],
-    notes: "Item de exemplo — edite ou remova em data/devices.ts",
   },
 ];
