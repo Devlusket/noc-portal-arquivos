@@ -5,6 +5,18 @@ import { InfoPage } from "@/lib/types";
 
 export const infoPages: InfoPage[] = [
   {
+    id: "login",
+    title: "Login e Senha para acessar a ONT após o preset",
+    category: "NOC",
+    updatedAt: "2026-08-24",
+    summary:
+      "Configuração de acesso para entrar na ONT após a importação do preset de configuração da Rapeedo.",
+    fields: [
+      { label: "Usuário", value: "rapeedo" },
+      { label: "Senha", value: "Rapeedo@998855jj", sensitive: true },
+    ],
+  },
+  {
     id: "acs-tr069",
     title: "Apontamento ACS TR-069",
     category: "NOC",

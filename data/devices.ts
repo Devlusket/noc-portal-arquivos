@@ -32,16 +32,10 @@ export const devices: Device[] = [
     ],
     presets: [
       {
-        label: "Configurações da Rapeedo",
+        label: "Preset da Rapeedo",
         filename: "config.bin",
         url: "/downloads/zte/f670l-v9/config.bin",
         description: "Vem pré configurada",
-      },
-      {
-        label: "Configurações de fábrica",
-        filename: "F670Lv9-default.bin",
-        url: "/downloads/zte/f670l-v9/F670Lv9-default.bin",
-        description: "Não vem configurada",
       },
     ],
   },
@@ -96,35 +90,44 @@ export const devices: Device[] = [
     ],
     presets: [
       {
-        label: "Configurações da Rapeedo",
+        label: "Preset da Rapeedo",
         filename: "config.bin",
         url: "/downloads/zte/f6201b/config.bin",
-      },
-    ],
-    notes: "Aguardando o arquivo real em public/downloads/zte/f6201b/.",
-  },
-  {
-    id: "tplink-xx530v",
-    name: "XX530V / AX3000",
-    manufacturer: "TP-Link",
-    category: "ONT",
-    model: "XX530V",
-    image: "/images/XX530V.jpg",
-    updatedAt: "2026-08-24",
-    firmware: [
-      {
-        label: "Firmware baixado automaticamente ",
-        filename: "firmware.bin",
-        url: "/downloads/tplink/xx530v/firmware.bin",
-      },
-    ],
-    presets: [
-      {
-        label: "Configurações da Rapeedo (só é possivel configurar com internet)",
-        filename: "config.bin",
-        url: "/downloads/tplink/xx530v/config.bin",
+        description: "Vem pré configurada",
       },
     ],
     notes: "",
   },
+  {
+    id: "tplink-xx530v",
+    name: "XX530v V2",
+    manufacturer: "TP-Link",
+    category: "ONT",
+    model: "XX530V | AX3000",
+    image: "/images/XX530V.jpg",
+    updatedAt: "2026-08-24",
+    firmware: [
+      {
+        label: "Firmware 0.8.0_3.2.2 ",
+        filename: "firmware.bin",
+        url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
+      },
+      {
+        label: "Firmware 0.6.0_3.1.10 ",
+        filename: "firmware.bin",
+        url: "/downloads/tplink/xx530v/XX530vV2v2_0.6.0_3.1.10_UP_BOOT_agc3000(251231)_2025-12-31_13.45.39.bin",
+      },
+    ],
+    presets: [
+      /*{
+        label: "Configurações da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/tplink/xx530v/config.bin",
+      },*/
+    ],
+    notes: "Só é possível importar um preset com a ONT registrada.",
+  },
 ];
+
+
+
