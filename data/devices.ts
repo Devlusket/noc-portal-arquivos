@@ -119,13 +119,14 @@ export const devices: Device[] = [
       },
     ],
     presets: [
-      /*{
-        label: "Configurações da Rapeedo",
+      {
+        label: "Preset da Rapeedo",
         filename: "config.bin",
         url: "/downloads/tplink/xx530v/config.bin",
-      },*/
+        description: "Vem pré configurada",
+      },
     ],
-    notes: "Só é possível importar um preset com a ONT registrada.",
+    notes: "Confira se o preset está funcionando corretamente com todos os campos e informações preenchidos corretamente.",
   },
 ];
 
