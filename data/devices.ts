@@ -128,6 +128,31 @@ export const devices: Device[] = [
     ],
     notes: "Confira se o preset está funcionando corretamente com todos os campos e informações preenchidos corretamente.",
   },
+  {
+    id: "tplink-xx535v2",
+    name: "XX535 V2.60",
+    manufacturer: "TP-Link",
+    category: "ONT",
+    model: "XX535V | AX3000",
+    image: "/images/XX535V2.png",
+    updatedAt: "2026-09-10",
+    /* firmware: [
+      {
+        label: "Atualização automática ↓ ",
+        filename: "firmware.bin",
+        url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
+      },
+    ], */
+    presets: [
+      {
+        label: "Preset da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/tplink/xx535v2/config.bin",
+        description: "Vem pré configurada",
+      },
+    ],
+    notes: "Confira se o preset está funcionando corretamente com todos os campos e informações preenchidos corretamente.",
+  },
 ];
 
 
