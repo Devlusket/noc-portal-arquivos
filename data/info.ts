@@ -37,12 +37,12 @@ export const infoPages: InfoPage[] = [
     id: "acesso-remoto",
     title: "Apontamento de Acesso Remoto",
     category: "NOC",
-    updatedAt: "2026-08-24",
+    updatedAt: "2026-09-22",
     summary:
       "Configuração de acesso remoto para gerenciamento dos equipamentos através da entrada WAN.",
     fields: [
-      { label: "Intervalo de IP", value: "192.37.16.0 ~ 192.37.23.255" },
-      { label: "Nome da Entrada WAN", value: "Gerencia" },
+      { label: "Intervalo de IP", value: "191.37.16.0 ~ 191.37.23.255" },
+      { label: "Nome da Entrada WAN", value: "Gerencia/Rapeedo" },
       { label: "Status da entrada WAN", value: "Ligado" },
       { label: "Tipo de serviço", value: "HTTP, HTTPS e PING" },
     ],

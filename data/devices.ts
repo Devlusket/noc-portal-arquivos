@@ -80,7 +80,7 @@ export const devices: Device[] = [
     category: "ONT",
     model: "ZXHN F6201B V9.3",
     image: "/images/F6201B.png",
-    updatedAt: "2026-08-24",
+    updatedAt: "2026-09-22",
     firmware: [
       {
         label: "Firmware 10P7N9",
