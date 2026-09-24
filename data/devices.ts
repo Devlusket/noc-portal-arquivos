@@ -46,12 +46,25 @@ export const devices: Device[] = [
     category: "ONT",
     model: "ZXHN F6600P",
     image: "/images/F6600P.png",
-    updatedAt: "2026-01-06",
+    updatedAt: "2026-09-24",
     firmware: [
       {
         label: "Firmware P6N34",
         filename: "F6600P_V9.0.10P6N34.bin",
         url: "/downloads/zte/f6600p/F6600P_V9.0.10P6N34.bin",
+      },
+      {
+        label: "Firmware P6N65",
+        filename: "F6600P_V9.0.10P6N65.bin",
+        url: "/downloads/zte/f6600p/F6600P_V9.0.10P6N65.bin",
+      },
+    ],
+    presets: [
+      {
+        label: "Preset da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/zte/f6600p/config.bin",
+        description: "Vem pré configurada",
       },
     ],
     notes:
