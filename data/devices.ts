@@ -22,7 +22,7 @@ export const devices: Device[] = [
     category: "ONT",
     model: "ZXHN F670L V9.0",
     image: "/images/ZTEF670L.png",
-    updatedAt: "2026-01-07",
+    updatedAt: "2026-10-06",
     firmware: [
       {
         label: "Firmware V9.0.11P3N10",
@@ -93,7 +93,7 @@ export const devices: Device[] = [
     category: "ONT",
     model: "ZXHN F6201B V9.3",
     image: "/images/F6201B.png",
-    updatedAt: "2026-09-24",
+    updatedAt: "2026-10-06",
     firmware: [
       {
         label: "Firmware 10P7N9",
@@ -118,7 +118,7 @@ export const devices: Device[] = [
     category: "ONT",
     model: "XX530V | AX3000",
     image: "/images/XX530V.jpg",
-    updatedAt: "2026-08-24",
+    updatedAt: "2026-10-06",
     firmware: [
       {
         label: "Firmware 0.8.0_3.2.2 ",
@@ -135,11 +135,11 @@ export const devices: Device[] = [
       {
         label: "Preset da Rapeedo",
         filename: "config.bin",
-        url: "/downloads/tplink/xx530v/config.bin",
+        url: "/downloads/tplink/xx530v/XX530vV2V226050680666n_agc3000_01366743554_backupcfg.bin",
         description: "Vem pré configurada",
       },
     ],
-    notes: "Confira se o preset está funcionando corretamente com todos os campos e informações preenchidos corretamente.",
+    notes: "Atualização automática ↓ ",
   },
   {
     id: "tplink-xx535v2",
@@ -160,11 +160,11 @@ export const devices: Device[] = [
       {
         label: "Preset da Rapeedo",
         filename: "config.bin",
-        url: "/downloads/tplink/xx535v2/config.bin",
+        url: "/downloads/tplink/xx535v2/XX535V226062367183n_agc3000_01366743554_backupcfg.bin",
         description: "Vem pré configurada",
       },
     ],
-    notes: "Confira se o preset está funcionando corretamente com todos os campos e informações preenchidos corretamente.",
+    notes: "Atualização automática ↓ ",
   },
 ];
 
