@@ -15,78 +15,8 @@ import { Device } from "@/lib/types";
 // Veja o manifesto completo em public/downloads/README.md
 
 export const devices: Device[] = [
-  {
-    id: "zte-f670l-v9",
-    name: "F670L V9",
-    manufacturer: "ZTE",
-    category: "ONT",
-    model: "ZXHN F670L V9.0",
-    image: "/images/ZTEF670L.png",
-    updatedAt: "2026-10-06",
-    firmware: [
-      {
-        label: "Firmware V9.0.11P3N10",
-        filename: "F670L_V9.0.11P3N10.bin",
-        url: "/downloads/zte/f670l-v9/F670L_V9.0.11P3N10.bin",
-      },
-    ],
-    presets: [
-      {
-        label: "Preset da Rapeedo",
-        filename: "config.bin",
-        url: "/downloads/zte/f670l-v9/config.bin",
-        description: "Vem pré configurada",
-      },
-    ],
-  },
-  {
-    id: "zte-f6600p",
-    name: "F6600P",
-    manufacturer: "ZTE",
-    category: "ONT",
-    model: "ZXHN F6600P",
-    image: "/images/F6600P.png",
-    updatedAt: "2026-09-24",
-    firmware: [
-      {
-        label: "Firmware P6N34",
-        filename: "F6600P_V9.0.10P6N34.bin",
-        url: "/downloads/zte/f6600p/F6600P_V9.0.10P6N34.bin",
-      },
-      {
-        label: "Firmware P6N65",
-        filename: "F6600P_V9.0.10P6N65.bin",
-        url: "/downloads/zte/f6600p/F6600P_V9.0.10P6N65.bin",
-      },
-    ],
-    presets: [
-      {
-        label: "Preset da Rapeedo",
-        filename: "config.bin",
-        url: "/downloads/zte/f6600p/config.bin",
-        description: "Vem pré configurada",
-      },
-    ],
-    notes:
-      "Está em conformidade com a nova política de senhas fortes estabelecida pelo Ato 2436 da Anatel e habilita o uso no software SCP.",
-  },
-  {
-    id: "zte-h199a",
-    name: "ZXHN H199A",
-    manufacturer: "ZTE",
-    category: "Roteador",
-    model: "ZXHN H199A",
-    image: "/images/H199A.png",
-    updatedAt: "2026-03-24",
-    firmware: [
-      {
-        label: "Versão P12",
-        filename: "zxhnh199a_hv910_fv910p12_mul_firmware.bin",
-        url: "/downloads/zte/h199a/zxhnh199a_hv910_fv910p12_mul_firmware.bin",
-      },
-    ],
-  },
-  {
+
+    {
     id: "zte-f6201b",
     name: "F6201B",
     manufacturer: "ZTE",
@@ -166,6 +96,77 @@ export const devices: Device[] = [
     ],
     notes: "Atualização automática ↓ ",
   },
+  {
+    id: "zte-f670l-v9",
+    name: "F670L V9",
+    manufacturer: "ZTE",
+    category: "ONT",
+    model: "ZXHN F670L V9.0",
+    image: "/images/ZTEF670L.png",
+    updatedAt: "2026-10-06",
+    firmware: [
+      {
+        label: "Firmware V9.0.11P3N10",
+        filename: "F670L_V9.0.11P3N10.bin",
+        url: "/downloads/zte/f670l-v9/F670L_V9.0.11P3N10.bin",
+      },
+    ],
+    presets: [
+      {
+        label: "Preset da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/zte/f670l-v9/config.bin",
+        description: "Vem pré configurada",
+      },
+    ],
+  },
+  {
+    id: "zte-f6600p",
+    name: "F6600P",
+    manufacturer: "ZTE",
+    category: "ONT",
+    model: "ZXHN F6600P",
+    image: "/images/F6600P.png",
+    updatedAt: "2026-09-24",
+    firmware: [
+      {
+        label: "Firmware P6N34",
+        filename: "F6600P_V9.0.10P6N34.bin",
+        url: "/downloads/zte/f6600p/F6600P_V9.0.10P6N34.bin",
+      },
+      {
+        label: "Firmware P6N65",
+        filename: "F6600P_V9.0.10P6N65.bin",
+        url: "/downloads/zte/f6600p/F6600P_V9.0.10P6N65.bin",
+      },
+    ],
+    presets: [
+      {
+        label: "Preset da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/zte/f6600p/config.bin",
+        description: "Vem pré configurada",
+      },
+    ],
+    notes:
+      "Está em conformidade com a nova política de senhas fortes estabelecida pelo Ato 2436 da Anatel e habilita o uso no software SCP.",
+  },
+  {
+    id: "zte-h199a",
+    name: "ZXHN H199A",
+    manufacturer: "ZTE",
+    category: "Roteador",
+    model: "ZXHN H199A",
+    image: "/images/H199A.png",
+    updatedAt: "2026-03-24",
+    firmware: [
+      {
+        label: "Versão P12",
+        filename: "zxhnh199a_hv910_fv910p12_mul_firmware.bin",
+        url: "/downloads/zte/h199a/zxhnh199a_hv910_fv910p12_mul_firmware.bin",
+      },
+    ],
+  }
 ];
 
 
