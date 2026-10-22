@@ -166,6 +166,22 @@ export const devices: Device[] = [
         url: "/downloads/zte/h199a/zxhnh199a_hv910_fv910p12_mul_firmware.bin",
       },
     ],
+  },
+  {
+    id: "zte-f601",
+    name: "ONU ZTE F601",
+    manufacturer: "ZTE",
+    category: "ONU",
+    model: "ZTE F601",
+    image: "/images/F601.png",
+    updatedAt: "2026-10-22",
+    firmware: [
+      {
+        label: "Versão P1N34",
+        filename: "F601P1N34.bin",
+        url: "/downloads/zte/f601/F601P1N34.bin",
+      },
+    ],
   }
 ];
 

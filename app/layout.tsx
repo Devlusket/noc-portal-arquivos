@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NOC // Arquivos — Rapeedo",
+  title: "NOC // Arquivos Rapeedo",
   description:
     "Portal interno da Rapeedo para técnicos baixarem firmwares, presets e informações de configuração de ONT, ONU e roteadores.",
 };

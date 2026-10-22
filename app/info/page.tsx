@@ -4,7 +4,7 @@ import { formatDate } from "@/lib/date";
 import { InfoFieldRow } from "@/components/InfoFieldRow";
 
 export const metadata = {
-  title: "Apontamentos // NOC — Rapeedo",
+  title: "Apontamentos // NOC Rapeedo",
 };
 
 export default function InfoIndex() {
@@ -42,7 +42,7 @@ export default function InfoIndex() {
         </h1>
         <p className="mt-2 max-w-2xl text-sm text-(--color-text-muted)">
           Dados de apontamento de sistemas internos. Campos sensíveis ficam
-          ocultos por padrão — clique para revelar ou copiar.
+          ocultos por padrão, clique para revelar ou copiar.
         </p>
 
         <div className="mt-8 flex flex-col gap-4">
