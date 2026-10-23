@@ -43,7 +43,7 @@ export const devices: Device[] = [
   },
   {
     id: "tplink-xx530v",
-    name: "XX530v V2",
+    name: "XX530v V2.60",
     manufacturer: "TP-Link",
     category: "ONT",
     model: "XX530V | AX3000",
@@ -119,6 +119,56 @@ export const devices: Device[] = [
         description: "Vem pré configurada",
       },
     ],
+  },
+  {
+    id: "tplink-ex521-v2",
+    name: "EX521 V2.60",
+    manufacturer: "TP-Link",
+    category: "Roteador",
+    model: "AX3000",
+    image: "/images/ex521.png",
+    updatedAt: "2026-10-23",
+    /* firmware: [
+      {
+        label: "Firmware V9.0.11P3N10",
+        filename: "F670L_V9.0.11P3N10.bin",
+        url: "/downloads/zte/f670l-v9/F670L_V9.0.11P3N10.bin",
+      },
+    ]*/
+    presets: [
+      {
+        label: "Preset da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/tplink/ex521/EX521V226050858727n_agc3000_01615993346_backupcfg.bin",
+        description: "Vem pré configurada",
+      },
+    ],
+    notes: "Atualização automática ↓ ",
+  },
+  {
+    id: "tplink-ex141-v2",
+    name: "EX141 V2.60",
+    manufacturer: "TP-Link",
+    category: "Roteador",
+    model: "AX1200",
+    image: "/images/ex141.png",
+    updatedAt: "2026-10-23",
+    /* firmware: [
+      {
+        label: "Firmware V9.0.11P3N10",
+        filename: "F670L_V9.0.11P3N10.bin",
+        url: "/downloads/zte/f670l-v9/F670L_V9.0.11P3N10.bin",
+      },
+    ]*/
+    presets: [
+      {
+        label: "Preset da Rapeedo",
+        filename: "config.bin",
+        url: "/downloads/tplink/ex141/EX141V12601126756n_agc3000_01836188161_backupcfg.bin",
+        description: "Vem pré configurada",
+      },
+    ],
+    notes: "Atualização automática ↓ ",
   },
   {
     id: "zte-f6600p",
