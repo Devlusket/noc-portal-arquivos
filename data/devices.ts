@@ -49,18 +49,18 @@ export const devices: Device[] = [
     model: "XX530V | AX3000",
     image: "/images/XX530V.jpg",
     updatedAt: "2026-10-06",
-    firmware: [
-      {
-        label: "Firmware 0.8.0_3.2.2 ",
-        filename: "firmware.bin",
-        url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
-      },
-      {
-        label: "Firmware 0.6.0_3.1.10 ",
-        filename: "firmware.bin",
-        url: "/downloads/tplink/xx530v/XX530vV2v2_0.6.0_3.1.10_UP_BOOT_agc3000(251231)_2025-12-31_13.45.39.bin",
-      },
-    ],
+    // firmware: [
+    //   {
+    //     label: "Firmware 0.8.0_3.2.2 ",
+    //     filename: "firmware.bin",
+    //     url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
+    //   },
+    //   {
+    //     label: "Firmware 0.6.0_3.1.10 ",
+    //     filename: "firmware.bin",
+    //     url: "/downloads/tplink/xx530v/XX530vV2v2_0.6.0_3.1.10_UP_BOOT_agc3000(251231)_2025-12-31_13.45.39.bin",
+    //   },
+    // ],
     presets: [
       {
         label: "Preset da Rapeedo",
