@@ -88,13 +88,7 @@ export const devices: Device[] = [
     ], 
     presets: [
       {
-        label: "Preset da Rapeedo Obrigatório",
-        filename: "config.bin",
-        url: "/downloads/tplink/xx535v2/XX535V226101162428n_agc3000_01366743554.bin",
-        description: "Vem pré configurada",
-      },
-      {
-        label: "Preset Teste Acesso Remoto",
+        label: "Preset Rapeedo Obrigatório",
         filename: "config.bin",
         url: "/downloads/tplink/xx535v2/XX535V226101162428n_agc3000_01366743554_backupcfg.bin",
         description: "Vem pré configurada",
