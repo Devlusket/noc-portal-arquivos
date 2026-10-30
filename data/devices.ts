@@ -41,36 +41,36 @@ export const devices: Device[] = [
     ],
     notes: "",
   },
-  {
-    id: "tplink-xx530v",
-    name: "XX530v V2.60",
-    manufacturer: "TP-Link",
-    category: "ONT",
-    model: "XX530V | AX3000",
-    image: "/images/XX530V.jpg",
-    updatedAt: "2026-10-06",
-    // firmware: [
-    //   {
-    //     label: "Firmware 0.8.0_3.2.2 ",
-    //     filename: "firmware.bin",
-    //     url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
-    //   },
-    //   {
-    //     label: "Firmware 0.6.0_3.1.10 ",
-    //     filename: "firmware.bin",
-    //     url: "/downloads/tplink/xx530v/XX530vV2v2_0.6.0_3.1.10_UP_BOOT_agc3000(251231)_2025-12-31_13.45.39.bin",
-    //   },
-    // ],
-    presets: [
-      {
-        label: "Preset da Rapeedo",
-        filename: "config.bin",
-        url: "/downloads/tplink/xx530v/XX530vV2V226050680666n_agc3000_01366743554_backupcfg.bin",
-        description: "Vem pré configurada",
-      },
-    ],
-    notes: "Atualização automática ↓ ",
-  },
+  // {
+  //   id: "tplink-xx530v",
+  //   name: "XX530v V2.60",
+  //   manufacturer: "TP-Link",
+  //   category: "ONT",
+  //   model: "XX530V | AX3000",
+  //   image: "/images/XX530V.jpg",
+  //   updatedAt: "2026-10-06",
+  //    firmware: [
+  //      {
+  //        label: "Firmware 0.8.0_3.2.2 ",
+  //        filename: "firmware.bin",
+  //       url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
+  //     },
+  //      {
+  //        label: "Firmware 0.6.0_3.1.10 ",
+  //        filename: "firmware.bin",
+  //        url: "/downloads/tplink/xx530v/XX530vV2v2_0.6.0_3.1.10_UP_BOOT_agc3000(251231)_2025-12-31_13.45.39.bin",
+  //      },
+  //    ],
+  //   presets: [
+  //     {
+  //       label: "Preset da Rapeedo",
+  //       filename: "config.bin",
+  //       url: "/downloads/tplink/xx530v/XX530vV2V226050680666n_agc3000_01366743554_backupcfg.bin",
+  //       description: "Vem pré configurada",
+  //     },
+  //   ],
+  //   notes: "Atualização automática ↓ ",
+  // },
   {
     id: "tplink-xx535v2",
     name: "XX535 V2.60",
@@ -78,19 +78,19 @@ export const devices: Device[] = [
     category: "ONT",
     model: "XX535V | AX3000",
     image: "/images/XX535V2.png",
-    updatedAt: "2026-09-10",
-    /* firmware: [
+    updatedAt: "2026-10-30",
+     firmware: [
       {
-        label: "Atualização automática ↓ ",
+        label: "Firmware 0.8.0 ",
         filename: "firmware.bin",
-        url: "/downloads/tplink/xx530v/XX530vV2v2_0.8.0_3.2.2_UP_BOOT_agc3000(260506)_2026-05-07_09.22.23.bin",
+        url: "/downloads/tplink/xx535v2/XX535v2_0.8.0_3.1.10_UP_BOOT_agc3000(261011)_2026-10-11_17.32.35.bin",
       },
-    ], */
+    ], 
     presets: [
       {
-        label: "Preset da Rapeedo",
+        label: "Preset da Rapeedo Obrigatório",
         filename: "config.bin",
-        url: "/downloads/tplink/xx535v2/XX535V226062367183n_agc3000_01366743554_backupcfg.bin",
+        url: "/downloads/tplink/xx535v2/XX535V226101162428n_agc3000_01366743554.bin",
         description: "Vem pré configurada",
       },
     ],
@@ -143,7 +143,7 @@ export const devices: Device[] = [
         description: "Vem pré configurada",
       },
     ],
-    notes: "Atualização automática ↓ ",
+    notes: "Atualização automática | Mesh configurado na hora",
   },
   {
     id: "tplink-ex141-v2",
@@ -168,7 +168,7 @@ export const devices: Device[] = [
         description: "Vem pré configurada",
       },
     ],
-    notes: "Atualização automática ↓ ",
+    notes: "Atualização automática | Mesh configurado na hora",
   },
   {
     id: "zte-f6600p",
