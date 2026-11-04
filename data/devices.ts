@@ -90,7 +90,7 @@ export const devices: Device[] = [
       {
         label: "Preset Rapeedo Obrigatório",
         filename: "config.bin",
-        url: "/downloads/tplink/xx535v2/XX535V226101162428n_agc3000_01366743554_backupcfg.bin",
+        url: "/downloads/tplink/xx535v2/XX535V226101162428n_agc3000_01366743554.bin",
         description: "Vem pré configurada",
       },
     ],
