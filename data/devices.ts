@@ -78,7 +78,7 @@ export const devices: Device[] = [
     category: "ONT",
     model: "XX535V | AX3000",
     image: "/images/XX535V2.png",
-    updatedAt: "2026-10-30",
+    updatedAt: "2026-11-05",
      firmware: [
       {
         label: "Firmware 0.8.0 ",
